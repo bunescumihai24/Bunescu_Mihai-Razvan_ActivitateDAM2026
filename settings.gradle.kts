@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "My Application"
 include(":app")
 include(":app:seminar02-1075")
+include(":app:seminar04_1075")

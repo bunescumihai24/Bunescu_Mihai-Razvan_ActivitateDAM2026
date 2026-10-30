@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Seminar04_1075</string>
+    <string-array name="categorii_mobila">
+        <item>Dormitor</item>
+        <item>Bucătărie</item>
+        <item>Sufragerie</item>
+        <item>Baie</item>
+    </string-array>
+</resources>
+
