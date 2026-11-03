@@ -62,4 +62,12 @@ public class Mobila implements Parcelable {
                 "\nMaterial: " + material + "\nAsamblată: " + (esteAsamblata ? "Da" : "Nu") +
                 "\nÎn stoc: " + (inStoc ? "Da" : "Nu") + "\nCalitate: " + calitate + "/5 stele";
     }
+
+
+    public String getNume() { return nume; }
+    public boolean isEsteAsamblata() { return esteAsamblata; }
+    public String getMaterial() { return material; }
+    public String getCategorie() { return categorie; }
+    public float getCalitate() { return calitate; }
+    public boolean isInStoc() { return inStoc; }
 }
