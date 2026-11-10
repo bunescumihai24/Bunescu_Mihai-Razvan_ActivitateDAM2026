@@ -71,5 +71,11 @@ public class MainActivity extends AppCompatActivity {
             intentLista.putParcelableArrayListExtra("LISTA_MOBILA", listaMobila);
             startActivity(intentLista);
         });
+
+        Button btnGalerieWeb = findViewById(R.id.btnGalerieWeb);
+        btnGalerieWeb.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, GalerieMobilaActivity.class);
+            startActivity(intent);
+        });
     }
 }
